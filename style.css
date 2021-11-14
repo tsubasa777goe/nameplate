@@ -1,0 +1,20 @@
+.letter-spacing span:nth-of-type(1){
+ letter-spacing:0.6em;
+}
+
+/*外枠*/
+.centering_parent {
+    padding: 50px;              /* 余白指定 */
+    background-color:  #FFFFFF;    /* 背景色指定 */
+    height: 1500px;              /* 高さ指定 */
+}
+ 
+/*内枠*/
+.centering_item {
+   text-align: center;
+    background-color: #FFFFFF;  /* 背景色指定 */
+    width: 0 auto;               /* 幅指定 */
+    height: 0 auto;               /* 高さ指定 */
+/*    width: 0 auto; border: solid 2px #000;    /* 囲い枠指定 */*/
+    margin:  0 auto;            /* 中央寄せ */
+}
