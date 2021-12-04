@@ -1,9 +1,5 @@
-.letter-spacing1 span:nth-of-type(1){
- letter-spacing:1.0em;
-}
-
-.letter-spacing2 span:nth-of-type(1){
- letter-spacing:0.3em;
+.letter-spacing span:nth-of-type(1){
+ letter-spacing:0.8em;
 }
 
 /*外枠*/
