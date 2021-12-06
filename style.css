@@ -1,8 +1,8 @@
 .letter-spacing span:nth-of-type(1){
- letter-spacing:0.6em;
+ letter-spacing:0.4em;
 }
 .letter-spacing span1:nth-of-type(1){
- letter-spacing:0.25em;
+ letter-spacing:0.1em;
 }
 
 /*外枠*/
@@ -23,7 +23,7 @@
 }
 
 .shopname {
-    font-weight: 800;
-    font-size: 40px;
+    font-weight: 100;
+    font-size: 46px;
 
 }
