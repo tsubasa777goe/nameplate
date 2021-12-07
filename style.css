@@ -1,20 +1,20 @@
 .letter-spacing span:nth-of-type(1){
- letter-spacing:0.4em;
+ letter-spacing:0.1em;
 }
 .letter-spacing span1:nth-of-type(1){
- letter-spacing:0.1em;
+ letter-spacing:0.82em;
 }
 
 /*外枠*/
 .centering_parent {
-    padding: 50px;              /* 余白指定 */
+    padding: 300px;              /* 余白指定 */
     background-color:  #FFFFFF;    /* 背景色指定 */
     height: 1500px;              /* 高さ指定 */
 }
  
 /*内枠*/
 .centering_item {
-   text-align: center;
+   text-align: left;
     background-color: #FFFFFF;  /* 背景色指定 */
     width: 0 auto;               /* 幅指定 */
     height: 0 auto;               /* 高さ指定 */
@@ -24,6 +24,7 @@
 
 .shopname {
     font-weight: 100;
-    font-size: 46px;
+    font-size: 48px;
+    line-height: 40px;
 
 }
