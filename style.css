@@ -1,8 +1,14 @@
 .letter-spacing span:nth-of-type(1){
- letter-spacing:0.1em;
+ letter-spacing:-10px;
 }
 .letter-spacing span1:nth-of-type(1){
- letter-spacing:0.82em;
+ letter-spacing:10.3px;
+}
+.letter-spacing span2:nth-of-type(1){
+ letter-spacing:-17px;
+}
+.letter-spacing span3:nth-of-type(1){
+ letter-spacing:-10px;
 }
 
 /*外枠*/
@@ -13,8 +19,19 @@
 }
  
 /*内枠*/
-.centering_item {
-   text-align: left;
+.centering_item1 {
+   text-align: center;
+       text-indent:0.9em;
+    background-color: #FFFFFF;  /* 背景色指定 */
+    width: 0 auto;               /* 幅指定 */
+    height: 0 auto;               /* 高さ指定 */
+/*    width: 0 auto; border: solid 2px #000;    /* 囲い枠指定 */*/
+    margin: 0 auto;            /* 中央寄せ */
+}
+
+/*内枠*/
+.centering_item2 {
+   text-align: center;
     background-color: #FFFFFF;  /* 背景色指定 */
     width: 0 auto;               /* 幅指定 */
     height: 0 auto;               /* 高さ指定 */
@@ -25,6 +42,6 @@
 .shopname {
     font-weight: 100;
     font-size: 48px;
-    line-height: 40px;
+    line-height: 100px;
 
 }
