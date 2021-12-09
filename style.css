@@ -21,6 +21,7 @@
 /*内枠*/
 .centering_item1 {
    text-align: center;
+       white-space: nowrap;
        text-indent:0.6em;
     background-color: #FFFFFF;  /* 背景色指定 */
     width: 0 auto;               /* 幅指定 */
@@ -31,6 +32,7 @@
 
 /*内枠*/
 .centering_item2 {
+    white-space: nowrap;
    text-align: center;
     background-color: #FFFFFF;  /* 背景色指定 */
     width: 0 auto;               /* 幅指定 */
