@@ -1,14 +1,14 @@
 .letter-spacing span:nth-of-type(1){
- letter-spacing:-10px;
+ letter-spacing:5px;
 }
 .letter-spacing span1:nth-of-type(1){
- letter-spacing:10.3px;
+ letter-spacing:14px;
 }
 .letter-spacing span2:nth-of-type(1){
- letter-spacing:-17px;
+ letter-spacing:-2px;
 }
 .letter-spacing span3:nth-of-type(1){
- letter-spacing:-10px;
+ letter-spacing:5px;
 }
 
 /*外枠*/
@@ -21,7 +21,7 @@
 /*内枠*/
 .centering_item1 {
    text-align: center;
-       text-indent:0.9em;
+       text-indent:0.6em;
     background-color: #FFFFFF;  /* 背景色指定 */
     width: 0 auto;               /* 幅指定 */
     height: 0 auto;               /* 高さ指定 */
